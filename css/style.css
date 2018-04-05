@@ -1,1 +1,1628 @@
+ @font-face {
+    font-family: 'Sail-Regular';
+    src:url(../fonts/Sail-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src:url(../fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+body a{
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+}
+input[type="button"]{
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding:0 0;
+    margin:0 0;
+}
+p{
+    padding:0 0;
+    margin:0 0;
+}
+ul{
+    padding:0 0;
+    margin:0 0;	
+}
+body{
+    padding:0 0;
+    margin:0 0; 
+    font-family: 'OpenSans-Regular'
+}
+.header {
+    background: url(../images/banner2.jpg)no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 655px;
+}
+.header-top {
+    padding: 2em 0;
+    background-color: #00336c;
+}
+.navbar-brand {
+    float: left;
+    margin-left: 0.8em;
+}
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+.top-menu ul li {
+    display: inline-block;
+    margin: 0.8em 1em;
+}
+.navbar-brand h1 a {
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.2em;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #ff97cc;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #222;
+    text-decoration: none;
+    background-color: #fff;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+.navbar-brand {
+    float: left;
+    height: 0px;
+    padding: 0px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #00336c;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 10px 20px;
+}
+.navbar-default {
+    border-color: #00336c!important;
+    background-color: #00336c;
+}
+.top-menu ul li a {
+    font-size: 1.1em;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+}
+span.menu {
+    display: none;
+}
+.slider {
+    margin-top:15em;
+    text-align: center;
+}
+.slider-info h3 {
+    font-size: 5em;
+    color:#00336C;
+    font-family: 'Sail-Regular';
+
+}
+.slider-info p{
+    font-size: 1.15em;
+    font-weight: 200;
+    color: #00336C;
+    width: 36%;
+    line-height: 1.8em;
+    margin: 0 auto;
+}
+a.button1 {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    color: #fff;
+    margin-right: 1em;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+}
+a.button2 {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.button {
+    margin-top: 2em;
+}
+.banner-bottom {
+    position: relative;
+}
+.banner-grids {
+    position: absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background: url(../images/banner1.jpg)repeat 0px 0px;
+}
+.ner-grid h5 {
+    font-size: 3em;
+    color: #fff;
+    margin: 0.5em 0 0;
+}
+.banner-grid p {
+    font-size: 1.2em;
+    color: #fff;
+    padding: 1em 0;
+}
+/* Rectangle In */
+.hvr-rectangle-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background: #f35d9c;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.hvr-rectangle-in:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #00336c;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-rectangle-in:hover, .hvr-rectangle-in:focus, .hvr-rectangle-in:active {
+    color: white;
+}
+.hvr-rectangle-in:hover:before, .hvr-rectangle-in:focus:before, .hvr-rectangle-in:active:before {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.about {
+    padding: 1em 0;
+    text-align: center;
+}
+.test1 {
+    position:relative;
+    overflow:hidden;
+}
+.test1 .textbox {
+    width: 270px;
+    height: 480px;
+    position: absolute;
+    top: 0px;
+    left: 11px;
+    margin-top: -466px;
+    border-radius: 2px;
+    padding: 8em 2em 0;
+}
+.test1:hover .textbox {
+    margin-top:0;
+}
+.textbox p{
+    font-size: 1em;
+    color: #000;
+    text-align: center;
+}
+.textbox h4 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom:0.5em;
+    color: #000;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.textbox {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.about-head h2 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+}
+.about-head p {
+    font-size: 1em;
+    color: #222;
+}
+.about-grids {
+    margin-top: 3em;
+}
+.offer  {
+    background: url("../images/abs-1.png") no-repeat 0px 0px;
+    width:159px;
+    height: 159px;
+    position: absolute;
+    top: 34%;
+    right: 28%;
+}
+.features {
+    text-align: center;
+    padding: 4em 0;
+    background:#eee;
+}
+.feature {
+    background: #fff;
+    border: 1px solid #E9E9E9;
+}
+.features h3 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+}
+.feature2 p {
+    font-size: 1em;
+    line-height: 1.8em;
+    color: #999;
+    border-top: 5px solid #F2F2F2;
+    padding: 1.5em;
+}
+.feature1 h4 {
+    font-size: 1.5em;
+    color: #222;
+    padding: 1em 0 0.5em;
+    text-transform: capitalize;
+}
+span.glyphicon.glyphicon-heart,span.glyphicon.glyphicon-camera,span.glyphicon.glyphicon-calendar,span.glyphicon.glyphicon-gift {
+    border-radius: 4em;
+    font-size: 3em;
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
+    -o-border-radius: 4em;
+    border: 5px solid #FFF;
+    box-shadow: 0px 0px 10px rgba(119, 119, 119, 0.25);
+    -webkit-box-shadow: 0px 0px 10px rgba(119, 119, 119, 0.25);
+    -moz-box-shadow: 0px 0px 10px rgba(119, 119, 119, 0.25);
+    -o-box-shadow: 0px 0px 10px rgba(119, 119, 119, 0.25);
+    display: inline-block;
+    padding: 20px;
+    background: #00336c;
+    background: -moz-linear-gradient(top, #03bcfd 0%, #019bd1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00336c), color-stop(100%,#00336c));
+    background: -webkit-linear-gradient(top, #00336c 0%,#00336c 100%);
+    background: -o-linear-gradient(top, #03bcfd 0%,#019bd1 100%);
+    background: -ms-linear-gradient(top, #03bcfd 0%,#019bd1 100%);
+    background: linear-gradient(to bottom, #00336c 0%,#00336c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03bcfd', endColorstr='#019bd1',GradientType=0 );
+    cursor: pointer;
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    color: #fff;
+}
+span.glyphicon.glyphicon-heart:hover {
+    background-color: #f35d9c;
+    background-image: -moz-linear-gradient(top,#f35d9c,#f35d9c);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f35d9c),to(#f35d9c));
+    background-image: -webkit-linear-gradient(top,#f35d9c,#f35d9c);
+    background-image: -o-linear-gradient(top,#f35d9c,#f35d9c);
+    background-image: linear-gradient(to bottom,#f35d9c,#f35d9c);
+    background-repeat: repeat-x;
+}
+span.glyphicon.glyphicon-camera:hover{
+    background-color: #f35d9c;
+    background-image: -moz-linear-gradient(top,#f35d9c,#f35d9c);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f35d9c),to(#f35d9c));
+    background-image: -webkit-linear-gradient(top,#f35d9c,#f35d9c);
+    background-image: -o-linear-gradient(top,#f35d9c,#f35d9c);
+    background-image: linear-gradient(to bottom,#f35d9c,#f35d9c);
+    background-repeat: repeat-x;
+}
+span.glyphicon.glyphicon-calendar:hover{
+    background-color: #f35d9c;
+    background-image: -moz-linear-gradient(top,#f35d9c,#f35d9c);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f35d9c),to(#f35d9c));
+    background-image: -webkit-linear-gradient(top,#f35d9c,#f35d9c);
+    background-image: -o-linear-gradient(top,#f35d9c,#f35d9c);
+    background-image: linear-gradient(to bottom,#f35d9c,#f35d9c);
+    background-repeat: repeat-x;
+}
+span.glyphicon.glyphicon-gift:hover{
+    background-color: #f35d9c;
+    background-image: -moz-linear-gradient(top,#f35d9c,#f35d9c);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f35d9c),to(#f35d9c));
+    background-image: -webkit-linear-gradient(top,#f35d9c,#f35d9c);
+    background-image: -o-linear-gradient(top,#f35d9c,#f35d9c);
+    background-image: linear-gradient(to bottom,#f35d9c,#f35d9c);
+    background-repeat: repeat-x;
+}
+.features-grids {
+    margin-top: 3em;
+}
+.feature1 {
+    padding: 1.5em;
+}
+.wedding-news {
+    padding: 3em 0;
+    text-align: center;
+}
+.wedding-news h3 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+}
+.wedding-inner h5{
+    font-size: 1.2em;
+    color: #222;
+    padding:1em 0
+}
+.wedding-inner p {
+    font-size: 1em;
+    color: #777;
+    line-height:1.8em
+}
+.wedding-inner h4 a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #222;
+}
+.wedding-inner h4 a:hover {
+    color: #00336c;
+}
+.wedding-grid {
+    margin-top: 3em;
+}
+.wedding-inner {
+    margin-bottom: 2em;
+}
+a.mask {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+}
+img.zoom-img {
+    -webkit-transform: scale(1, 1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1, 1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+img.zoom-img:hover {
+    -webkit-transform: scale(1.1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 750ms;
+    -moz-transform: scale(1.1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 750ms;
+    overflow: hidden;
+}
+.indicate {
+    padding: 4em 0;
+    background-color: #f35d9c;
+}
+span.glyphicon.glyphicon-map-marker {
+    font-size: 2em;
+    vertical-align: middle;
+    margin-right: 0.5em;
+    color:#fff;
+}
+span.glyphicon.glyphicon-earphone{
+    font-size: 2em;
+    vertical-align: middle;
+    margin-right: 0.5em;
+    color:#fff;
+}
+span.glyphicon.glyphicon-envelope {
+    font-size: 2em;
+    vertical-align: middle;
+    margin-right: 0.5em;
+    color:#fff;
+}
+span.glyphicon.glyphicon-send {
+    font-size: 2em;
+    vertical-align: middle;
+    margin-right: 0.5em;
+    color:#fff;
+}
+.indicate-grid p a {
+    color: #fff;
+    text-decoration: none;
+}
+.indicate-grid p {
+    font-size: 1em;
+    color: #fff;
+}
+.footer-section{
+    padding:2em 0;
+    text-align:center;
+    background: #00336c;
+}
+.footer-top p {
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: 400;
+}
+.footer-top  a {
+    font-size: 1em;
+    color:#fff;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.footer-top a:hover {
+    color: #fff;
+}
+.footer-top a {
+    margin: 0 0.3em
+}
+/**about**/
+.header.head-top {
+    min-height: 108px;
+}
+.OurLove-grid iframe {
+    width: 100%;
+    height: 260px;
+}
+.OurLove-section h2 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+    text-align: center;
+}
+.OurLove-grid1 h4 {
+    font-size: 1.5em;
+    color: #f35d9c;
+}
+.OurLove-grid1 p {
+    font-size: 1em;
+    line-height: 1.8em;
+    padding: 1em 0;
+    color: #999;
+}
+.OurLove-grids {
+    margin-top: 3em;
+}
+.OurLove-section {
+    padding: 4em 0;
+}
+.team-grids {
+    position: relative;
+}
+.team h3 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+}
+.team {
+    padding:0em 0em 4em;
+    text-align: center;
+}
+.team-info {
+    margin-top: 3em;
+}
+.team-grids a {
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+.captn h4 {
+    color: #fff;
+    margin: .1em 0 0.5em;
+    font-size: 1.5em;
+
+}
+.captn p {
+    color: #fff;
+    font-size:1em;
+}
+.team-grids a .captn {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    font-weight: 800;
+    color: #ffffff;
+    position: absolute;
+    bottom: -80%;
+    right: 2%;
+    background-color: rgba(51, 51, 51, 0.68);
+    padding: 5% 10%;
+    text-align: center;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.team-grids a:hover .captn {
+    width: 100%;
+    bottom: 0%;
+    padding: 40% 10%;
+    right: 2%;
+}
+.why-choose {
+    padding: 1em 0 4em;
+    text-align: center;
+}
+.why-choose h3 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+
+}
+.choose-grid h4{
+    font-size: 1.5em;
+    color: #f35d9c;
+    text-transform: capitalize;
+}
+.choose-grid p{
+    font-size:1em;
+    line-height:1.8em;
+    color:#999;
+    margin:1em 0 0
+}
+.choose-grids {
+    margin-top: 3em;
+}
+
+/*-- gallery --*/
+.wedding-section{
+    padding:4em 0;
+    text-align:center;
+}
+.wedding-section h2 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+    margin-bottom: 1em;
+}
+.gallery-grid{
+    border:1px solid #f4f4f4;
+}
+.gallery-grd{
+    padding:1em 0;
+    position:relative;
+}
+.gallery-grd img{
+    width:100%;
+}
+.zoom-icon {
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+    display: block;
+    left: 0;
+    top: 0px;
+    width: 348px;
+    height: 227px;
+    background: rgba(101, 40, 64, 0.61)url(../images/zoom.png) center center no-repeat;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+.gallery-grd.zoom-icon {
+    top: -50px;
+    width: 100%;
+    height: 182px;
+}
+.gallery-grd a:hover .zoom-icon {
+    top: 14%;
+    opacity: 1;
+    filter: alpha(opacity=99); 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+}
+.services {
+    padding: 4em 0;
+    text-align: center;
+}
+.services h2 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+    text-align: center
+}
+.services p {
+    font-size: 1em;
+    color: #eee;
+    line-height: 1.8em;
+}
+.services h4 {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    margin: 0.6em 0 0.4em;
+    color: #fff;
+}
+.services-grids {
+    margin-top: 3em;
+}
+.ser1 {
+    background: #00336c;
+    padding: 2em;
+}
+.ser1:hover {
+    background:#f35d9c;
+}
+.professional{
+    padding:0em 0 4em ;
+}
+.professional h3 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+    text-align: center
+}
+.professional-grid1 h4 {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    color: #f35d9c;
+}
+.professional-grid1 p {
+    font-size: 1em;
+    padding: .5em 0;
+    color: #999;
+    line-height: 2em;
+}
+.professional-grids {
+    margin-top: 3em;
+}
+.service-list {
+    padding: 4em 0;
+    background-color: #f35d9c;
+}
+.service-list h3 {
+    font-size: 3.5em;
+    color: #fff;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+    text-align: center
+}
+.ser-list ul li{
+    list-style-type: none;
+}
+.ser-list ul li a {
+    color: #eee;
+    font-size: 1em;
+    padding: 6px 24px;
+    background: url(../images/list-arrow.png) no-repeat 0px 10px;
+    line-height:2em;
+    text-decoration:none;
+}
+.ser-list ul li a:hover {
+    color: #00336c;
+}
+.service-grids {
+    margin-top: 3em;
+}
+/*-- services --*/
+/*-- Typography --*/
+h2.tittle {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+    text-align: center;
+}
+.typo {
+    padding: 4em 0;
+}
+.show-grid [class^=col-] {
+    background: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 2em;
+    border: 10px solid #f0f0f0;
+}
+.show-grid [class*="col-"]:hover {
+    background: #e0e0e0;
+}
+.grid_3{
+    margin-bottom:2em;
+}
+.xs h3, h3.m_1{
+    color:#000;
+    font-size:1.7em;
+    font-weight:300;
+    margin-bottom: 1em;
+}
+.grid_3 p{
+    color: #777;
+    font-size: 0.85em;
+    margin-bottom: 1em;
+    font-weight: 300;
+}
+.grid_4{
+    background:none;
+    margin-top:50px;
+}
+.label {
+    font-weight: 300 !important;
+    border-radius:4px;
+}  
+
+.grid_5 h3, .grid_5 h2, .grid_5 h1, .grid_5 h4, .grid_5 h5{
+    margin-bottom:1em;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: none !important;
+}
+.tab-content > .active {
+    display: block;
+    visibility: visible;
+}
+/*--//Typography --*/
+/**contact**/
+.contact-map iframe {
+    height: 200px;
+    width: 50%;
+    border: none;
+    float: right;
+    position: relative;
+    margin-right: 50px;
+    margin-left: 50px;
+    top: -300px;
+}
+.contact {
+    padding: 4em 0
+
+}
+.contact_top {
+    padding:1em 0 0em 0;
+}
+.contact h2 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+    text-align: center;
+}
+.contact-top h3 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+}
+.contact_left p{
+    color:#999;
+    font-size:1em;
+    line-height:1.8em;
+    margin-bottom: 1em;
+}
+
+.sub-button {
+    margin-bottom: 25px;
+}
+.contact_left h3 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+    margin-bottom: .3em;
+    margin-left: 50px
+}
+.company_ad h3 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+    margin-bottom: .3em;
+}
+
+.company_ad p {
+    font-size: 1em;
+    color: #999;
+    line-height: 1.8em;
+}
+.company_ad a {
+    color: #999;
+}
+/**responsive**/
+@media(max-width:1440px){
+    .offer {
+        right: 25.2%;
+    }
+}
+@media (max-width: 1366px){
+    .offer {
+        right: 24.2%;
+    }
+}
+@media (max-width: 1280px){
+    .offer {
+        right: 22%;
+    }
+}
+@media(max-width:1080px){
+    .slider-info h3 {
+        font-size: 4em;
+    }
+    .slider-info p {
+        font-size: 0.965em;
+        width: 40%
+    }
+    .header.head-top {
+        min-height: 108px;
+    }
+    .header {
+        min-height: 565px;
+    }
+    .slider {
+        margin-top: 7em;
+    }
+    .banner-grids {
+        top: 95px;
+    }
+    .banner-grid h5 {
+        font-size: 2.5em
+    }
+    .banner-grid p {
+        font-size: 1em;
+    }
+    .about-head h2,.OurLove-section h2,.services h2,.wedding-section h2,.wedding-section h2 ,h2.tittle,.contact h2{
+        font-size: 3em;
+    }
+    .about-head p,.textbox p,.feature2 p,.wedding-inner p,.indicate-grid p,.OurLove-grid1 p,.captn p,.choose-grid p,.services p,.professional-grid1 p,.contact_left p,.company_ad p {
+        font-size: 0.965em;
+    }
+    .textbox h4,.feature1 h4,.OurLove-grid1 h4,.captn h4,.choose-grid h4,.services h4,.professional-grid1 h4 {
+        font-size: 1.4em;
+    }
+    #signup h3,.features h3,.wedding-news h3,.team h3,.why-choose h3,.professional h3,.service-list h3,.contact_left h3, .company_ad h3 {
+        font-size: 3em;
+    }
+    #signup h4 {
+        font-size: 2em;
+    }
+    .OurLove-grid iframe {
+        width: 100%;
+        height: 211px;
+    }
+    .offer {
+        right: 15.3%;
+        top: 32%;
+    }
+    .test1 .textbox {
+        width: 238px;
+        height: 480px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 5em 2em 0;
+    }
+    .wedding-inner h5 {
+        font-size: 1em;
+    }
+    span.glyphicon.glyphicon-map-marker {
+        font-size: 1.5em;
+        margin-right: 0.2em;
+    }
+    span.glyphicon.glyphicon-earphone{
+        font-size: 1.5em;
+        margin-right: 0.2em;
+    }
+    span.glyphicon.glyphicon-envelope {
+        font-size: 1.5em;
+        margin-right: 0.2em;
+    }
+    span.glyphicon.glyphicon-send {
+        font-size: 1.5em;
+        margin-right: 0.2em;
+    }
+    .team-grids a .captn {
+        right: 0%;
+    }
+    .team-grids a:hover .captn {
+        right: 0%;
+    }
+    .ser-list ul li a {
+        font-size: 0.965em;
+        padding: 6px 17px;
+    }
+    .zoom-icon {
+        width: 281px;
+        height: 190px;
+    }
+}
+@media (max-width: 991px){
+    .navbar-brand h1 a {
+        font-size: 1em;
+    }
+    .nav > li > a {
+        padding: 10px 10px;
+    }
+    .navbar-nav {
+        margin:4px 0 0;
+    }
+    .navbar-brand {
+        padding: 0px 30px;
+    }	
+    .header-top {
+        padding: 1.5em 0;
+    }
+    .slider-info h3 {
+        font-size: 3.5em;
+    }
+    .slider-info p {
+        font-size: 0.95em;
+        width: 50%;
+    }
+    .button {
+        margin-top: 1.5em;
+    }
+    a.button1 {
+        font-size: 0.95em;
+    }
+    a.button2 {
+        font-size: 0.95em;
+    }
+    .header {
+        min-height: 440px;
+    }
+    .banner-grid {
+        float: left;
+        width: 25%;
+    }
+    .banner-grids {
+        top: 70px;
+    }
+    .slider {
+        margin-top: 5em;
+    }
+    .banner-grid h5 {
+        font-size: 2em;
+    }
+    .banner-grid p {
+        font-size: 0.95em;
+    }
+    .about,.signup,.features,.wedding-news ,.indicate,.OurLove-section,.services,.service-list,.wedding-section,.typo,.contact{
+        padding: 3em 0;
+    }
+    .about-grid {
+        float: left;
+        width: 25%;
+    }
+    .about-head h2, .OurLove-section h2, .services h2, .wedding-section h2, .wedding-section h2, h2.tittle, .contact h2 {
+        font-size: 2.5em;
+    }
+    .about-head p, .textbox p, .feature2 p, .wedding-inner p, .indicate-grid p, .OurLove-grid1 p, .captn p, .choose-grid p, .services p, .professional-grid1 p, .contact_left p, .company_ad p {
+        font-size: 0.95em;
+    }
+    .textbox h4,.feature1 h4,.OurLove-grid1 h4,.captn h4,.choose-grid h4,.services h4 ,.professional-grid1 h4{
+        font-size: 1.3em;
+    }
+    #signup h3,.features h3,.wedding-news h3,.team h3,.why-choose h3,.professional h3,.service-list h3,.contact_left h3, .company_ad h3 {
+        font-size: 2.5em;
+    }
+    .test1 .textbox {
+        width: 194px;
+        height: 480px;
+        position: absolute;
+        top: 0px;
+        left: -3px;
+        padding: 2.5em 1.5em 0;
+    }
+    #signup h4 {
+        font-size: 1.5em;
+    }
+    .offer {
+        right: 3.6%;
+        top: 29.8%;
+    }
+    .feature-grid {
+        float: left;
+        width: 50%;
+    }
+    .feature-grid:nth-child(3) {
+        margin-top: 1em;
+    }
+    .feature-grid:nth-child(4) {
+        margin-top: 1em;
+    }
+    .weeding-new {
+        float: left;
+        width: 33.3%;
+    }
+    .header.head-top {
+        min-height: 90px;
+    }
+    .indicate-grid {
+        float: left;
+        width: 50%;
+    }
+    .indicate-grid:nth-child(3) {
+        margin-top: 1em;
+    }
+    .indicate-grid:nth-child(4) {
+        margin-top: 1em;
+    }
+    .OurLove-grid {
+        float: left;
+        width: 40%;
+    }
+    .OurLove-grid iframe {
+        width: 100%;
+        height: 154px;
+    }
+    .OurLove-grid1 {
+        float: left;
+        width: 60%;
+    }
+    .team {
+        padding: 0em 0em 3em;
+    }
+    .team-grids {
+        float: left;
+        width: 25%;
+    }
+    .team-grids a .captn {
+        bottom: -74%;
+    }
+    .team-grids a:hover .captn {
+
+        padding: 25% 10%;
+    }
+    .why-choose {
+        padding: 1em 0 3em;
+    }
+    .choose-grid {
+        float: left;
+        width: 33.3%;
+    }
+    .services-grid {
+        float: left;
+        width: 33.3%;
+    }
+    .ser1 {
+        background: #00336c;
+        padding: 1em;
+    }
+    .professional-grid {
+        float: left;
+        width: 40%;
+    }
+    .professional-grid1 {
+        float: left;
+        width: 60%;
+    }
+    .ser-list {
+        float: left;
+        width: 33.3%;
+    }
+    .ser-list ul li a {
+        font-size: 0.9em;
+        padding: 6px 1px;
+    }
+    .gallery-grid {
+        float: left;
+        width: 33.3%;
+    }
+    .zoom-icon {
+        width: 207px;
+        height: 142px;
+    }
+    .label {
+        display: inline;
+        padding: .2em .6em .3em;
+        font-size: 61%;
+    }
+
+    .contact_left {
+        float: left;
+        width: 60%;
+    }
+    .contact_right {
+        float: left;
+        width: 40%;
+    }
+    .contact_top {
+        padding: 3em 0 0em 0;
+    }
+}
+@media (max-width: 768px){
+    .offer {
+        right: 3.6%;
+        top: 28.5%;
+    }
+}
+@media (max-width: 640px){
+    .navbar-nav {
+        float: none;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #00336c;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: #00336c;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #fff;
+        background-color: transparent;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+    .header-top {
+        padding: 1em 0;
+    }
+    .navbar-brand {
+        padding: 0px 0px;
+    }
+    .header {
+        min-height: 400px;
+    }
+    .slider-info h3 {
+        font-size: 3em;
+    }
+    .slider-info p {
+        width: 60%;
+    }
+    .slider {
+        margin-top: 3em;
+    }
+    .banner-grids {
+        position: relative;
+    }
+    .OurLove-grid iframe {
+        width: 100%;
+        height: 313px;
+    }
+    .banner-grid h5 {
+        font-size: 1.5em;
+    }
+    .about, #signup, .features, .wedding-news, .indicate, .OurLove-section, .services, .service-list, .wedding-section, .typo, .contact {
+        padding: 2em 0;
+    }
+    #signup h3, .features h3, .wedding-news h3, .team h3, .why-choose h3, .professional h3, .service-list h3, .contact_left h3, .company_ad h3 {
+        font-size: 2em;
+    }
+    .textbox h4, .feature1 h4, .OurLove-grid1 h4, .captn h4, .choose-grid h4, .services h4, .professional-grid1 h4 {
+        font-size: 1.2em;
+    }
+    .about-grids,.features-grids,.wedding-grid,.OurLove-grids,.team-info,.choose-grids,.services-grids,.professional-grids,.service-grids,.contact-map {
+        margin-top: 2em;
+    }
+    .professional {
+        padding: 0em 0 2em;
+    }
+    .about-grid {
+        float: left;
+        width: 50%;
+    }
+    .test1 .textbox {
+        width: 301px;
+        height: 480px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 9em 3em 0;
+    }
+    .about-grid:nth-child(3){
+        margin-top:1em
+    }
+    .about-grid:nth-child(4){
+        margin-top:1em
+    }
+    #signup h4 {
+        font-size: 1.3em;
+    }
+    .offer {
+        right: 2.4%;
+        top: 27.6%;
+    }
+    .wedding-inner h4 a {
+        font-size: 0.85em;
+    }
+    span.glyphicon.glyphicon-heart, span.glyphicon.glyphicon-camera, span.glyphicon.glyphicon-calendar, span.glyphicon.glyphicon-gift {
+        font-size: 2em;
+    }
+    .header.head-top {
+        min-height: 80px;
+    }
+    .OurLove-grid {
+        width: 100%;
+    }
+    .OurLove-grid1 {
+        width: 100%;
+        margin-top:1em;
+    }
+    .OurLove-grid1 p {
+        padding: 0.5em 0;
+    }
+    .team-grids {
+        float: left;
+        width: 50%;
+    }
+    .team-grids a .captn {
+        right: 6%;
+        bottom: -83%;
+    }
+    .team-grids a:hover .captn {
+        right: 6%;
+        padding: 35% 10%;
+    }
+    .team-grids:nth-child(3) {
+        margin-top: 1em;
+    }
+    .team-grids:nth-child(4) {
+        margin-top: 1em;
+    }
+    .ser1 {
+        background: #00336c;
+        padding: 0.55em;
+    }
+    .professional-grid {
+        width: 100%;
+    }
+    .professional-grid img {
+        margin: 0 auto;
+    }
+    .professional-grid1 {
+        width: 100%;
+        text-align: center;
+        margin-top: 1em;
+    }
+    .ser-list {
+        width: 100%;
+    }
+    .ser-list:nth-child(2) {
+        margin-top: 1em;
+    }
+    .ser-list:nth-child(3) {
+        margin-top: 1em;
+    }
+    .zoom-icon {
+        width: 165px;
+        height: 117px;
+    }
+    .label {
+        display: inline;
+        padding: .2em .6em .3em;
+        font-size: 50%;
+    }
+    .pagination {
+        margin: 10px 0;
+    }
+    .pagination-lg > li > a, .pagination-lg > li > span {
+        padding: 10px 16px;
+        font-size: 10px;
+    }
+    .grid_4 {
+        background: none;
+        margin-top: 25px;
+    }
+    .contact_top {
+        padding: 2em 0 0em 0;
+    } 
+}
+@media (max-width: 480px){
+    .navbar-brand h1 a {
+        font-size: 0.9em;
+    }
+    .header {
+        background: url(../images/banner2.jpg)no-repeat -90px 0px;
+        background-size: cover;
+    }
+    .slider-info h3 {
+        font-size: 2.5em;
+    }
+    .slider-info p {
+        width: 80%;
+        font-size: 0.92em;
+    }
+    .banner-grid {
+        float: left;
+        width: 50%;
+    }
+
+    .banner-grid p {
+        font-size: 0.92em;
+    }
+    .banner-grid h5 {
+        font-size: 1.2em;
+    }
+    .about-head h2, .OurLove-section h2, .services h2, .wedding-section h2, .wedding-section h2, h2.tittle, .contact h2 {
+        font-size: 2em;
+    }
+    #signup, .features, .wedding-news, .indicate, .OurLove-section, .services, .service-list, .wedding-section, .typo, .contact {
+        padding: 1em 0;
+    }
+    .OurLove-grid iframe {
+        width: 100%;
+        height: 235px;
+    }
+    .test1 .textbox {
+        width: 224px;
+        height: 480px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 4em 2em 0;
+    }
+    .about-head p, .textbox p, .feature2 p, .wedding-inner p, .indicate-grid p, .OurLove-grid1 p, .captn p, .choose-grid p, .services p, .professional-grid1 p, .contact_left p, .company_ad p {
+        font-size: 0.92em;
+    }
+    .offer {
+        display: none;
+    }
+    #signup img {
+        margin: 1em auto 0;
+        border: 4px solid #fff;
+    }
+    #signup h4 {
+        font-size: 1.2em;
+    }
+    .wedding-new {
+        width: 100%;
+    }
+    .wedding-inner {
+        margin-bottom: 1em;
+    }
+    .wedding-new:nth-child(2) {
+        margin-top: 1em;
+    }
+    .wedding-new:nth-child(3) {
+        margin-top: 1em;
+    }
+    .wedding-inner h5 {
+        font-size: 0.95em;
+        padding: 0.8em;
+    }
+    .indicate-grid {
+        width: 100%;
+    }
+    .indicate-grid:nth-child(2) {
+        margin-top: 1em;
+    }
+    .indicate-grid:nth-child(3) {
+        margin-top: 1em;
+    }
+    .indicate-grid:nth-child(4) {
+        margin-top: 1em;
+    }
+    .footer-section {
+        padding: 1em 0;
+    }
+    .header.head-top {
+        background-size: cover;
+        background: url(../images/banner2.jpg)no-repeat 0px 0px;
+    }
+    .team-grids a .captn {
+        right: 0%;
+        bottom: -80%;
+    }
+    .team-grids a:hover .captn {
+        right: 0%;
+    }
+    .team {
+        padding: 0em 0em 1em;
+    }
+    .choose-grid {
+        width: 100%;
+    }
+    .choose-grid:nth-child(2) {
+        margin-top: 1em;
+    }
+    .choose-grid:nth-child(3) {
+        margin-top: 1em;
+    }
+    .services-grid {
+        width: 100%;
+    }
+    .services-grid:nth-child(2) {
+        margin-top: 1em;
+    }
+    .services-grid:nth-child(3) {
+        margin-top: 1em;
+    }
+    .professional {
+        padding: 0em 0 1em;
+    }
+    .zoom-icon {
+        width: 117px;
+        height: 87px;
+    }
+    .typo h1 {
+        font-size: 28px;
+    }
+    .typo h2 {
+        font-size: 25px;
+    }
+    .grid_4 {
+        margin-top: 20px;
+    }
+    .contact_left {
+        width: 100%;
+    }
+
+    address {
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 320px){
+    .navbar-brand h1 a {
+        font-size: 0.8em;
+    }
+    .header-top {
+        padding: 0.5em 0;
+    }
+    .header {
+        background-size:cover;
+    }
+    .slider-info p {
+        width: 100%;
+        font-size: 0.9em;
+    }
+    .button {
+        margin-top: 1em;
+    }
+    a.button1 {
+        font-size: 0.92em;
+    }
+    a.button2 {
+        font-size: 0.92em;
+    }
+    .banner-grid h5 {
+        font-size: 1.3em;
+    }
+    .banner-grid p {
+        font-size: 0.9em;
+    }
+    .about-head h2, .OurLove-section h2, .services h2, .wedding-section h2, .wedding-section h2, h2.tittle, .contact h2 {
+        font-size: 2.3em;
+    }
+    .about-grid {
+        width: 100%;
+        padding: 0;
+    }
+    .about-grid:nth-child(2) {
+        margin-top: 1em;
+    }
+    .about-grid:nth-child(3) {
+        margin-top: 1em;
+    }
+
+    .test1 .textbox {
+        width: 274px;
+        height: 480px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 8em 2em 0;
+    }
+    #signup h3, .features h3, .wedding-news h3, .team h3, .why-choose h3, .professional h3, .service-list h3, .contact_left h3, .company_ad h3 {
+        font-size: 2.2em;
+    }
+    .feature-grid {
+        width: 100%;
+    }
+    .feature-grid:nth-child(2) {
+        margin-top: 1em;
+    }
+    .textbox h4, .feature1 h4, .OurLove-grid1 h4, .captn h4, .choose-grid h4, .services h4, .professional-grid1 h4 {
+        font-size: 1.3em;
+    }
+    .about-grids, .features-grids, .wedding-grid, .OurLove-grids, .team-info, .choose-grids, .services-grids, .professional-grids, .service-grids, .contact-map {
+        margin-top: 1em;
+    }
+    .feature-grid {
+        padding: 0;
+    }
+    .wedding-new {
+        padding: 0;
+    }
+    .OurLove-grid {
+        padding: 0;
+    }
+    .OurLove-grid1 {
+        padding: 0;
+    }
+    .team-grids {
+        width: 100%;
+    }
+    .team-grids img {
+        margin: 0 auto;
+    }
+    .team-grids:nth-child(2) {
+        margin-top: 1em;
+    }
+    .team-grids a .captn {
+        right: 0%;
+        bottom: -82%;
+    }
+    .choose-grid {
+        padding: 0;
+    }
+    .services-grid {
+        padding: 0;
+    }
+    .professional-grid {
+        padding: 0;
+    }
+    .professional-grid1 {
+        padding: 0;
+    }
+    .gallery-grid {
+        width: 100%;
+        padding: 0;
+    }
+    .zoom-icon {
+        width: 270px;
+        height: 185px;
+    }
+    .wedding-section h2 {
+        margin-bottom: 0.5em;
+    }
+    .header.head-top {
+        min-height: 360px;
+    }
+    .contact_left {
+        padding: 0;
+    }
+    .contact_right {
+        padding: 0;
+    }
+    .OurLove-grid iframe {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+.btn span.glyphicon {    			
+    opacity: 0;				
+}
+.btn.active span.glyphicon {				
+    opacity: 1;				
+}
+
 
