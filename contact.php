@@ -2,11 +2,11 @@
 <html>
     <head>
 	<title>Contact Us</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/style.css?v=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen"/>
         <link href="css/formstyle.css" rel="stylesheet" type="text/css" media="screen"/>
 
         <!--script-->
@@ -16,7 +16,7 @@
     </head>
     <body>
         <?php
-			include 'header.php';
+        include 'header.php';
         ?>
         <div class="contact_top">
             <div class="col-md-8 contact_left">
@@ -62,7 +62,7 @@
         </div>
         <!--footer-->
         <?php
-			include 'footer.php';
+        include 'footer.php';
         ?>
         <!--footer-->
     </body>
