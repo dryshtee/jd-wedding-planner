@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Sail-Regular';
+    src:url(../../fonts/Sail-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src:url(../../fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+body {
+    background: #eee;
+}
+
+#frm {
+    border: solid gray 1px;
+    border-radius: 5px;
+    margin:  100px auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    background: #eceeee;
+    height: 350px;
+    width: 400px;
+}
+
+#btn_submit {
+    padding: 5px;
+    text-align: center;
+}
+
+#btn_submit:hover {
+    color: #fff;
+    background-color: #00336C;
+}
+
+span {
+    color:red
+}
+
+.form-field {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#frm h3 {
+    text-align: center;
+    position: relative;
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+}
+
+#content {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #cbcbcb;
+}
+form {
+    width: 50%;
+    margin:  20px auto;
+}
+form div {
+    margin-top: 5px;
+}
+#img_div {
+    width: 80%;
+    padding: 5px;
+    margin: 15px auto;
+    border: 1px solid #cbcbcb;
+}
+#img_div:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+img {
+    float: left;
+    margin: 5px;
+    width: 300px;
+    height: 140px;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.navbar-header p {
+    color: #fff;
+    font-size: 15px;
+}
