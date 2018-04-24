@@ -25,7 +25,7 @@ body{ font-family: sans-serif;}
 	z-index: 9999;
 	top: -115px;
 	left:-55px;
-	background: transparent url(images/images/add-new-event.png) no-repeat top left;
+	background: transparent url(../images/add-new-event.png) no-repeat top left;
 	color: #666 !important;
 }
 .events_window {
