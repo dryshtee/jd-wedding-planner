@@ -1,0 +1,44 @@
+body {
+    background: #eee;
+}
+#adminLogin {
+    border: solid gray 1px;
+    border-radius: 5px;
+    margin:  100px auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    background: #eceeee;
+    height: 350px;
+    width: 400px;
+}
+#btn_submit {
+    padding: 5px;
+    text-align: center;
+}
+
+#btn_submit:hover {
+    color: #fff;
+    background-color: #00336C;
+}
+
+span {
+    color: red;
+}
+
+.form-field {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#adminLogin h3 {
+    text-align: center;
+    position: relative;
+    font-size: 3.5em;
+    color: #00336c;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+}
