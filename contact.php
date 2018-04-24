@@ -54,16 +54,20 @@
                 </address>
             </div>
             <div class="contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.844702311264!2d57.49515251448911!3d-20.223773386439905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c5af2ad52164f%3A0x650b09b881245953!2sBagatelle+-+Mall+of+Mauritius!5e0!3m2!1sen!2smu!4v1474617472671" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.844702311264!2d57.49515251448911!3d-20.223773386439905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c5af2ad52164f%3A0x650b09b881245953!2sBagatelle+-+Mall+of+Mauritius!5e0!3m2!1sen!2smu!4v1474617472671" width="600" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 
             </div>
 			
             <div class="clearfix"> </div>
         </div>
-        <!--footer-->
-        <?php
-        include 'footer.php';
-        ?>
-        <!--footer-->
+		<!--footer-->
+		<div class="footer-section">
+			<div class="container">
+				<div class="footer-top">
+					<p> &copy; 2017 JD Wedding Planner | All Rights Reserved </p><br/>
+				</div>
+			</div>
+		</div>
+	<!--footer-->
     </body>
 </html>

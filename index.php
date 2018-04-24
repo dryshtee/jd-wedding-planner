@@ -2,18 +2,11 @@
 <html>
     <title> JD Wedding Planner </title>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/w3.css"> 
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <script type="application/x-javascript">
-            addEventListener("load", function() {
-            setTimeout(hideURLbar, 0); }, false);
-            function hideURLbar(){ window.scrollTo(0,1);
-            }
-        </script>
         <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
@@ -108,7 +101,7 @@
         <div class="content">
             <!--about-->
             <div class="about">
-                <div class="about-head">
+                <div class="container about-head">
                     <h2>about</h2>
                     <p>For couples who are excited for and trying to plan their weddings but who need advice,
                         guidance and support. JD Wedding Planner is a transparent, easy-to-use, online platform
@@ -116,7 +109,6 @@
                         over 1,000 registered suppliers across all the main categories, JD Wedding Planner is still
                         the only site where couples can view suppliers' prices and availability. Our website
                         is packed with inspiration and ideas to help couples plan their dream weddings</p>
-                    <br/>
                     <br/>
                 </div>
                 <div>
@@ -129,7 +121,7 @@
             </div>
             <!--about-->
 
-            <div class="features">
+            <div class="container features">
                 <h3>Trending</h3>
                 <div class="about-grids">
                     <div class="col-md-3 about-grid test1">
@@ -169,11 +161,11 @@
 
                     <div class="clearfix"></div>
                     <br>
-                    <center><p>JD Wedding Planner exists to help couples discover their most perfect day through custom-designed wedding styling, flowers and our passion for the details.<br>
-                            Couples all across Mauritius have fallen in love with our way of weaving their personality, love story and inner style into a classy, romantic and beautifully finished wedding affair. </p>
-                        <p>We are a warm, fun and approachable team who love what we do. We listen and we observe. We get lost in your words so we can find the stories that breathe heart and meaning to your day. </p>
-                        <p>Every wedding you see on our website is authentically our work. No exceptions. Designed with love, crafted by hand, meticulously placed, framed by hours upon hours of preparation behind the scenes.
-                            We forage for the best suppliers in Mauritius, and have a soft spot for small businesses who share the same passion as we do for indian weddings.</p></center>
+                    <center>
+					<p>JD Wedding Planner exists to help couples discover their most perfect day through custom-designed wedding styling, flowers and our passion for the details.</p>
+					<p>Couples all across Mauritius have fallen in love with our way of weaving their personality, love story and inner style into a classy, romantic and beautifully finished wedding affair. </p>
+					<p>We are a warm, fun and approachable team who love what we do. We listen and we observe. We get lost in your words so we can find the stories that breathe heart and meaning to your day. Every wedding you see on our website is authentically our work. No exceptions. Designed with love, crafted by hand, meticulously placed, framed by hours upon hours of preparation behind the scenes.We forage for the best suppliers in Mauritius, and have a soft spot for small businesses who share the same passion as we do for indian weddings.</p>
+					</center>
                 </div>
             </div>          
             <div class="wedding-news">
